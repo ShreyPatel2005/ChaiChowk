@@ -51,26 +51,7 @@ export const Hero = () => {
             </Button>
           </div>
 
-          {/* Quick Info Cards */}
-          <div className="grid md:grid-cols-3 gap-6 max-w-3xl mx-auto animate-fadeInUp" style={{animationDelay: '0.6s'}}>
-            <div className="chai-card p-6 bg-white bg-opacity-90 backdrop-blur-sm rounded-xl shadow-lg">
-              <Clock className="w-8 h-8 text-amber-700 mx-auto mb-3" />
-              <h3 className="font-semibold text-chai-primary text-lg mb-2">Opening Hours</h3>
-              <p className="text-chai-secondary">Every Day<br />6:30 AM – 10:30 PM</p>
-            </div>
-            
-            <div className="chai-card p-6 bg-white bg-opacity-90 backdrop-blur-sm rounded-xl shadow-lg">
-              <MapPin className="w-8 h-8 text-amber-700 mx-auto mb-3" />
-              <h3 className="font-semibold text-chai-primary text-lg mb-2">Location</h3>
-              <p className="text-chai-secondary">Fortune Square<br />Chala, Vapi</p>
-            </div>
-            
-            <div className="chai-card p-6 bg-white bg-opacity-90 backdrop-blur-sm rounded-xl shadow-lg">
-              <Phone className="w-8 h-8 text-amber-700 mx-auto mb-3" />
-              <h3 className="font-semibold text-chai-primary text-lg mb-2">Call Us</h3>
-              <p className="text-chai-secondary">+91 99091 01647</p>
-            </div>
-          </div>
+          
         </div>
       </div>
     </section>
